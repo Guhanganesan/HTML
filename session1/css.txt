@@ -1,0 +1,58 @@
+width:300;
+height:300;
+border:4px solid red;
+color:red;
+text-align:left;  center,left;right;justify;
+word-spacing:6px;
+word-break:break-all; keep-all,break-all;
+visibility:hidden;
+text-indent:50px;
+margin-left;right;bottom;top; auto;
+margin-top:-15px;
+text-decoration:underline; underline;overline;
+padding:20px; 
+letter-spacing:3px;
+line-height:2;
+margin-top:70px;
+text-transform:capitalize; uppercase;lowercase;
+border-style: solid;
+border-bottom-style:dotted;
+border-left: 5px solid green;
+border: 0px solid green; groove,dashed, double,  inset, outset, none;
+background-color:blue;
+border-radius:10px;
+font-family:verdana;courier;arial;
+font-size:15px;
+border-bottom-color:yellow;
+border-top-color:green;
+border-collapse:collapse;
+tr:nth-child(even){background-color:#E5E7E9;}
+tr:nth-child(odd){background-color:#82E0AA;}
+background: rgba(90, 127, 74, 0.2);
+position:absolute;fixed;relative;
+top:150px;
+left:100px;
+box-shadow: 5px 5px 5px 5px gray;
+display:block;none;
+text-decoration:none;line-through;overline;underline;
+display:flex; flex:1;
+z-index:-1;1;
+cursor:none;auto;crosshair;default;help;not-allowed;move;pointer;progress;
+text-shadow: 1px 1px 2px black;
+transform:rotate(20deg); 
+transform: skewX(20deg);
+transform: skewY(20deg);
+transform: skew(20deg,10deg);
+transform: rotateX(150deg);
+transform: rotateY(150deg);
+transform: rotateZ(90deg);
+filter: opacity(50%);
+filter: brightness(250%);
+filter: contrast(180%);
+outline: 1px solid red;
+outline-offset: 5px;
+display:inline-block;
+float:left;
+
+
+

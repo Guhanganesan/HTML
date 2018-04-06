@@ -1,0 +1,59 @@
+<html>
+
+<style>
+*{background-color:pink;}       /* 
+                                      1) *div{}, p*{}
+                                      2) p, h2, b {}
+									  3) h1 + p {} , after h1(only one)
+									  4) h1 ~ p{}, (all)
+									  5) p::after { content: " Add this Symbol";} , before
+											
+                                      */
+h1 + p{background-color:green;}
+									  
+p::before{content: "Addd"}
+
+input:checked {
+    height: 15px;
+    width: 15px;
+	
+}
+
+
+input[type=text]:disabled {
+    background-color: gray ;
+}
+
+input:focus {
+    background-color: green;
+	color:white;
+}
+
+.i1:valid {
+    background-color: yellow;
+	color:blue;
+}
+				  
+</style>
+<body>
+
+<h1> Payilagam</h1>
+
+<p> Velachery</p>
+
+<p> Velachery</p>
+
+<br>
+<br>
+
+<form action="">
+  <input type="radio" checked="checked" value="male" name="gender"> Male
+  <input type="radio" value="female" name="gender"> Female<br><br>
+   Mobile: <input type="text"  value="">
+   Email: <input type="text" disabled="disabled" value="Email">
+   Password: <input type="text"  class="i1" value="*********">
+</form>
+
+<br>
+</body>
+</html>

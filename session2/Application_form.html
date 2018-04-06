@@ -1,0 +1,111 @@
+<html>
+<head><title> Application Form </title> </head>
+<style>
+table{border:1px solid blue; 
+border-collapse:collapse;}
+td{border: 3px solid blue; width:300;
+height:60;text-align:center;color:white; 
+font-size:20;background-color:#93c993;}
+input{color:blue;border-radius:5px;}
+p{color:red; font-size:25;}
+
+</style>
+<body style="background-color:#e1e1e1;">
+     <marquee> <p>Welcome to this site...</p> </marquee>
+<br> 
+    <center> <table>
+	       <tr> <td>Name:</td>
+
+		   <td> <input type="text" name="name" size="15" maxlength="12"/>    </td></tr>
+		   
+		   <tr> <td> Gender:</td> 
+		   <td><input type="radio" name="male" value="male" checked="checked" /> Male
+		   
+		   <input type="radio" name="male" value="male"  />Female</td></tr>
+		   
+		   
+		   
+		   <tr> <td>Father: </td> <td><input type="text" name="gender"/> </td></tr>
+		   <tr> <td>Mother: </td> <td> <input type="text" name="mother"></td></tr>
+		   <tr> <td>Mobile: </td> <td> <input type="text" name="mobile"> </td></tr>
+		   <!-- <textarea name="comments" -->
+		   <tr> <td>Address: </td> <td> <textarea type="text" name="add" cols="21" style="color:blue;border-radius:5px;"> </textarea> </td></tr>
+		   <tr> <td>Email:</td> <td><input type="text" name="email"> </td></tr>
+		   <tr> <td>Username:</td> <td><input type="text" name="username"> </td></tr>
+		   <tr> <td>Password:</td> <td><input type="password" name="password"> </td></tr>
+		   <tr> <td> DOB:</td> <td><input type="date" name="name"> </td></tr>
+		   <tr> <td> Education:</td> 
+		   <td> 
+		   <select name="edu"> 
+		   <option value="sslc">SSLC </option> 
+		   <option> HSC </option> 
+		   <option>UG </option>
+		   <option>PG </option> 
+		   </select> 
+		   </td>
+		   </tr>
+		   <tr> <td> Domicile:</td> <td>
+		   <select multiple="multiple" name="domicile" size="3"> 
+		   <option>Chennai </option>  <option> Nellai </option> <option>Madurai </option> <option>Trichy </option>  <option>Covai </option>  <option> Ramnad </option> <option> Sivaganga </option> <option>Tuticorin </option> </select> </select> </td></tr>
+		   <tr> </tr>
+	 
+	 </table>  </center> 
+	 <br>
+	 <center> <input type="submit"> </center>
+<br>
+<br>
+
+
+
+Data List:
+<form action="" method="">
+  <input list="mobiles">
+			  <datalist id="mobiles">
+				<option value="x">
+				<option value="y">
+				<option value="">
+				<option value="">
+				<option value="">
+			  </datalist>
+  </input>
+  
+</form>
+
+<br>
+<br>
+<br>
+
+<form>
+ <fieldset>
+  <legend>Personalia:</legend>
+  Name: <input type="text"><br>
+  Email: <input type="text"><br>
+  Date of birth: <input type="text">
+ </fieldset>
+</form>
+
+<form action="/action_page.php">
+  <label>Male</label>
+  <input type="radio" name="gender" id="male" value="male"><br>
+  <label>Female</label>
+  <input type="radio" name="gender" id="female" value="female"><br>
+  <label for="other">Other</label>
+  <input type="radio" name="gender" id="other" value="other"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+
+<select>
+  <optgroup label="Swedish Cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+  </optgroup>
+  <optgroup label="German Cars">
+    <option value="mercedes">Mercedes</option>
+    <option value="audi">Audi</option>
+  </optgroup>
+</select>
+ 
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+Procedure to run html file in your Browser:
+
+1. Go and download notepad++ (or any other tools like sublime, webstrom etc..)
+2. After installing the notepad++ open a new file
+
+3. Type your HTML code
+    Ex: <html>
+	    </head>
+		<title> Payilagam</title>
+		</head>
+		<style>
+		</style>
+		
+		<body>
+		
+		</body>
+		
+		</html>
+		
+4. Save this code as .html format ( Ex. myfile.html)
+
+5. Click run option in the menu bar
+
+6. In the run option you can  select browser to open the html file.
+
+----------- Thanks and Regards (Payilagam) -------------

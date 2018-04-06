@@ -1,0 +1,72 @@
+
+<html>
+<head>
+</head>
+<style>
+table{
+     border: 3px solid red;
+    /* border-collapse:collapse; */
+	 border-spacing:5px;
+	 background-color:#06F3B3;
+	 }
+td{
+     border: 1px solid green;
+     width:200;
+	 height:80;
+	 text-align:center;
+	 
+	 font-size:18px;
+}
+th{
+     border: 1px solid green;
+     width:200;
+	 height:80;
+	 text-align:center;
+	 color:white;
+	 background-color:#4A99F9;
+	 font-size:18px;
+}
+/*
+tr:nth-child(1){background-color:#E5E7E9;}
+tr:nth-child(2){background-color:#82E0AA;}
+#tr1{background-color:yellow;}
+*/
+</style>
+<body>
+    <table>
+	      <caption>Monthly savings</caption>
+		    <colgroup>
+	       <col  style="background-color:yellow;">  </col>
+	       <col  style="background-color:#F94A9F;">  </col>
+	       <col  style="background-color:#F9DF4A;">  </col>
+	       <col  style="background-color:#F9944A;">  </col>
+	       <col  style="background-color:#A5A19E;">  </col>
+	   
+	       </colgroup>
+	      <tr>  <th>Sl.No  </th> <th> Mobile Name </th><th> Rate1 </th><th>Rate2 </th><th> Quantity </th> </tr>
+		  <tr>  <td> 1 </td> <td>Samsung   </td><td colspan="2"> 7000 </td><td> 3 </td> </tr>
+		  <tr id="tr1">  <td> 2 </td> <td>Nokia  </td><td> 6000 </td><td>500 </td><td> 2 </td> </tr>
+		  <tr >  <td> 3 </td> <td>Xperia  </td><td> 10000 </td><td rowspan="2">4000 </td><td> 1 </td> </tr>
+		  <tr>  <td> 4 </td> <td>Micromax  </td><td> 8000 </td><td> 2 </td> </tr>
+	
+	</table>
+<!--
+<ul>
+  <li><data value="21053">Cherry Tomato</data></li>
+  <li><data value="21054">Beef Tomato</data></li>
+  <li><data value="21055">Snack Tomato</data></li>
+</ul>
+
+
+<dl>
+  <dt>Coffee</dt>
+  <dd>Black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>White cold drink</dd>
+</dl>
+
+-->
+
+</body>
+</html>
+

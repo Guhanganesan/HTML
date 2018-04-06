@@ -1,0 +1,85 @@
+width:300;
+height:300;
+border:4px solid red;
+color:red;
+text-align:left;  center,left;right;justify;
+word-spacing:6px;
+word-break:break-all; keep-all,break-all;
+visibility:hidden;
+text-indent:50px;
+margin-left;right;bottom;top; auto;
+margin-top:-15px;
+margin-top:70px;
+margin:2px 4px 5px 5px;
+text-decoration:underline; underline;overline;
+padding:20px; 
+letter-spacing:3px;
+line-height:2;
+text-transform:capitalize; uppercase;lowercase;
+background-color:blue;
+font-family:verdana;courier;arial;
+font-size:15px;
+border-width:5px;
+border-style: solid;
+border-color:red;
+border-bottom-style:dotted;
+border-left: 5px solid green;
+border: 0px solid green; groove,dashed, double,  inset, outset, none;
+border-bottom-color:yellow;
+border-top-color:green;
+border-collapse:collapse;
+border-radius:10px;
+tr:nth-child(even){background-color:#E5E7E9;}
+tr:nth-child(odd){background-color:#82E0AA;}
+background: rgba(90, 127, 74, 0.2);
+position:absolute;fixed;relative;
+top:150px;
+left:100px;
+box-shadow: 5px 5px 5px 5px gray;
+display:block;none;
+display:inline-block;
+text-decoration:none;line-through;overline;underline;
+display:flex; flex:1;
+z-index:-1;1;
+cursor:none;auto;crosshair;default;help;not-allowed;move;pointer;progress;
+text-shadow: 1px 1px 2px black;
+transform:rotate(20deg); 
+transform: skewX(20deg);
+transform: skewY(20deg);
+transform: skew(20deg,10deg);
+transform: rotateX(150deg);
+transform: rotateY(150deg);
+transform: rotateZ(90deg);
+filter: opacity(50%);
+filter: brightness(250%);
+filter: contrast(180%);
+outline: 1px solid red;
+outline-offset: 5px;
+float:left;
+outline:2px solid green;
+outline-style:solid;
+outline-color:blue;
+outline-width:5px;
+outline-offset:10px;
+column-rule:2px solid blue;
+column-rule-style:solid;
+column-rule-width:5px;
+column-rule-color:green;
+column-count:4;
+column-gap:40px;
+box-sizing:border-box;
+list-style-type:circle,square,upper-roman;
+list-style-position:inside;outside;
+marquee(attributes): 
+[ direction=right;left;up;down;
+  scrollamount="30"; 
+  scrolldelay="100";
+  behavior="alternate";
+  bgcolor="yellow";
+  loop="2"
+]
+overflow:scroll;hidden; 
+overflow-x:hidden;scroll;
+overflow-
+
+

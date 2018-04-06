@@ -1,0 +1,19 @@
+*{box-sizing:border-box;}
+.c1{background-color:#A4A6A9;}
+.row>.col-md-12{color:white;padding:20px;text-align:center;}
+.row>.col-md-3{background-color:blue;text-align:center;color:white;}
+.row>.col-md-3:hover{background-color:red;text-align:center;color:white;}
+p{text-align:justify;}
+img{width:99%;margin-top:3px;}
+h1{color:green;}
+form{background-color:#77FAA3;}
+
+
+@media screen and (min-width: 576px) {
+	
+	.col-md-3{width:100%;}
+	
+}
+
+
+

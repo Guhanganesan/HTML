@@ -1,0 +1,20 @@
+body{background-color:pink;}
+
+.container{ margin:auto;width:999.5px;  }
+.header{background-color:#249741;text-align:center;color:white;width:999.5px;height:60px;}
+.footer{background-color:#626365;text-align:center;color:white;width:999.5px;height:60px;clear:both;}
+.menu>div{width:249.5px; height:40px; background-color:#0251B6; color:white;list-style-type:none; float:left; 
+           text-align:center;box-sizing:border-box;padding:10px 20px;}
+.body>div{float:left;width:332px; height:auto;text-align:justify;}		   
+img{width:331px;height:330px;}		   
+@media screen and (max-width: 480px)
+{
+	.container{width:100%;}
+	.header{width:100%;}
+	.footer{width:100%;}
+	.menu>div{width:100%;}
+	.body>div{width:100%;}
+	img{width:100%;}
+}
+
+

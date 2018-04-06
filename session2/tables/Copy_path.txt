@@ -1,0 +1,12 @@
+Procedure to copy the url of the files/images/videos
+
+1. In notepad++, go and select the File menu.
+
+2. In File menu, select the options of Open Folder as Workspace.
+
+3. In that Open Folder as workspace you can include the files as work space in your notepad++
+
+4. Here you right click and select the copy path(URL) of the file/images/videos
+5. Finally paste this url in your src or href attribute
+
+----------- Thanks and Regards (Payilagam) -------------
