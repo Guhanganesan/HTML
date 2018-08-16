@@ -1,3 +1,7 @@
+/*
+The width=device-width key-value pair sets the width of the viewport to the width of the device.
+The initial-scale=1 key-value pair sets the initial zoom level when visiting the page.
+*/
 *{box-sizing:border-box;}
 body{margin:0;}
 .container{width:100%;height:auto;}
