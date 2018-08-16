@@ -1,6 +1,19 @@
 /*
 The width=device-width key-value pair sets the width of the viewport to the width of the device.
 The initial-scale=1 key-value pair sets the initial zoom level when visiting the page.
+
+@media screen and (orientation: landscape) {
+  body {
+    flex-direction: row;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  body {
+    flex-direction: column;
+  }
+}
+
 */
 *{box-sizing:border-box;}
 body{margin:0;}
